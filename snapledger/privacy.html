@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - SnapLedger</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 24px; line-height: 1.6; color: #333; }
+        h1 { font-size: 1.8em; }
+        h2 { font-size: 1.3em; margin-top: 2em; }
+        p, li { font-size: 1em; }
+        .updated { color: #888; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: February 27, 2026</p>
+
+    <p>SnapLedger ("we", "our", "the app") is committed to protecting your privacy. This policy explains what data we collect and how we handle it.</p>
+
+    <h2>Data Storage</h2>
+    <p>All your financial data — transactions, categories, and notes — is stored locally on your device using Apple's SwiftData framework. If you have iCloud enabled, your data syncs across your devices via Apple's CloudKit through your personal iCloud account. We do not operate any servers and have no access to your data.</p>
+
+    <h2>Receipt Images</h2>
+    <p>When you scan a receipt, the photo is saved locally as part of the transaction record. If iCloud sync is enabled, receipt images will also sync to your other devices via your iCloud account. Receipt images are never sent to any external service.</p>
+
+    <h2>Receipt Scanning &amp; AI Processing</h2>
+    <p>The receipt scanning feature works in two steps:</p>
+    <ol>
+        <li><strong>On-device OCR:</strong> The receipt image is processed locally on your device using Apple's Vision framework to extract text. No image data leaves your device.</li>
+        <li><strong>AI parsing:</strong> The extracted text (not the image) is sent to a third-party AI service to parse transaction details such as amount, merchant, date, and category.</li>
+    </ol>
+    <p>You choose and configure which AI provider to use in the app's settings by entering your own API key. SnapLedger supports the following providers:</p>
+    <ul>
+        <li><strong>OpenAI</strong> — <a href="https://openai.com/privacy">Privacy Policy</a></li>
+        <li><strong>Anthropic (Claude)</strong> — <a href="https://www.anthropic.com/privacy">Privacy Policy</a></li>
+        <li><strong>Google (Gemini)</strong> — <a href="https://policies.google.com/privacy">Privacy Policy</a></li>
+    </ul>
+    <p>The app communicates directly with the provider you configure. We do not proxy, intercept, or store any data sent to these services. Please review the privacy policy of your chosen provider to understand how they handle data.</p>
+
+    <h2>Data We Do NOT Collect</h2>
+    <ul>
+        <li>Bank account or credit card information</li>
+        <li>Personal identification information</li>
+        <li>Location data</li>
+        <li>Contacts or phone data</li>
+        <li>Usage analytics or tracking data</li>
+        <li>API keys (stored only on your device)</li>
+    </ul>
+
+    <h2>Subscriptions</h2>
+    <p>SnapLedger Pro subscriptions are processed entirely by Apple through the App Store. We do not collect or have access to your payment information.</p>
+
+    <h2>Biometric Authentication</h2>
+    <p>SnapLedger supports Face ID and Touch ID to protect access to the app. Biometric data is handled entirely by iOS and never leaves your device. We do not have access to your biometric data.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>SnapLedger is not directed at children under 13. We do not knowingly collect data from children.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this policy from time to time. Changes will be posted on this page with an updated date.</p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about this privacy policy, contact us at <a href="mailto:snapledgerhelp@gmail.com">snapledgerhelp@gmail.com</a>.</p>
+</body>
+</html>
